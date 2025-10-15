@@ -1,0 +1,13 @@
+{
+  "manifest_version": "2",
+  "name": "karakeep-links",
+
+  "description": "An extension to add an option when clicking a link to add to karakeep (formerlly hoarder)",
+
+  "content_scripts": [ 
+    { 
+      "matches": "",
+      "js": [] 
+  }
+  ]
+}
