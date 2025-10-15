@@ -5,10 +5,11 @@
 
   "description": "An extension to add an option when clicking a link to add to karakeep (formerlly hoarder)",
 
-  "content_scripts": [ 
-    { 
-      "matches": ["<all_urls>"],
-      "js": ["keepLink.js"] 
-  }
-  ]
+  
+
+  "background":{
+    "scripts" : ["keepLink.js"]
+  },
+
+  "permissions" : ["menus"]
 }

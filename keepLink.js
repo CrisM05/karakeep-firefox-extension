@@ -1,3 +1,21 @@
-import * as ENV from ".env"
+browser.menus.create({
+  id: "karakeep-link",
+  title: "Send to karakeep",
+  documentUrlPatterns: ["*://*/*"],
+  contexts : [
+    "link",
+    "selection"
+  ],
+  onclick(info) {
+    const text = info.linkUrl || info.selectionText;
+  }
+});
 
-console.log(ENV);
+// broswer.menus.create({
+//   id: "karakeep-image",
+//   title: "Send image to karakeep",
+//   documentUrlPatterns : ["*"],
+//   contexts: [
+//     "image"
+//   ]
+// });
