@@ -1,13 +1,14 @@
 {
-  "manifest_version": "2",
+  "manifest_version": 2,
   "name": "karakeep-links",
+  "version" : "0.1",
 
   "description": "An extension to add an option when clicking a link to add to karakeep (formerlly hoarder)",
 
   "content_scripts": [ 
     { 
-      "matches": "",
-      "js": [] 
+      "matches": ["<all_urls>"],
+      "js": ["keepLink.js"] 
   }
   ]
 }

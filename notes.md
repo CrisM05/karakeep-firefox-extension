@@ -40,3 +40,11 @@ If you choose to supply your own icon, It should be 48x48 pixels. You could also
   "96": "icons/border-96.png"
 }
 ```
+
+### permissions
+
+#### menus
+
+[documentation](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus)
+
+It is used to add to the differne menus, will need I think a regex to ensure it is a link
